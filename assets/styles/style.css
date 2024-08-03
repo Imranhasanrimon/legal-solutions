@@ -208,9 +208,48 @@ header .hero-section {
     position: relative;
 }
 
+.faq .content .box h4 {
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
 .faq .content .box i {
     position: absolute;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+}
+
+/* contact section starts here  */
+.contact .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.contact .container .address {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contact .container .address .box {
+    padding: 60px 30px;
+    background: rgb(255, 246, 246);
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    display: block;
+    background: rgb(255, 246, 246);
+    border: none;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.contact form textarea {
+    height: 160px;
 }
