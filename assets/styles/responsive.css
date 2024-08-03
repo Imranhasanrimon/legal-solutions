@@ -1,6 +1,11 @@
 /* for small devices  */
 @media screen and (max-width:576px) {
 
+    /* some shared styles  */
+    .color2 {
+        font-size: 2rem;
+    }
+
     /* header section starts here  */
     header nav img,
     header nav ul {
@@ -35,6 +40,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /* review section starts here  */
+    .review .banner .content p {
+        font-size: .75rem;
+    }
 }
 
 /* for medium devices  */
