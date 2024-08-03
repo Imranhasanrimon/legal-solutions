@@ -240,6 +240,12 @@ header .hero-section {
     text-align: center;
 }
 
+.contact .container .address .box h4 {
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
 .contact form input,
 .contact form textarea {
     width: 100%;
@@ -252,4 +258,8 @@ header .hero-section {
 
 .contact form textarea {
     height: 160px;
+}
+
+.contact form .btn-primary {
+    width: 100%;
 }

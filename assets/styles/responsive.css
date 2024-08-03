@@ -68,6 +68,22 @@
     .faq .content .box i {
         right: 10px;
     }
+
+    /* contact section starts here  */
+    .contact .container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .contact .container .address .box {
+        padding: 20px;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        margin-bottom: 20px;
+    }
+
 }
 
 /* for medium devices  */
