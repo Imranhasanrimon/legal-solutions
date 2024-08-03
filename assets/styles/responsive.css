@@ -29,6 +29,12 @@
         height: 50px;
         padding: 0 20px;
     }
+
+    /* practice section starts here  */
+    .practice .law-types {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 /* for medium devices  */
@@ -42,4 +48,10 @@
     .hero-section .hero-content h1 {
         font-size: 3rem;
     }
+
+    /* practice section starts here  */
+    .practice .law-types {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
