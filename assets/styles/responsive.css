@@ -44,6 +44,26 @@
     .review .banner .content p {
         font-size: .75rem;
     }
+
+    /* FAQ section starts here  */
+    .faq .content {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .faq .content .image img {
+        height: 300px;
+    }
+
+    .faq .content .box {
+        padding: 20px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .faq .content .box i {
+        right: 10px;
+    }
 }
 
 /* for medium devices  */
@@ -62,5 +82,20 @@
     .practice .law-types {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* FAQ section starts here  */
+    .faq .content {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .faq .content .image img {
+        height: 300px;
+    }
+
+    .faq .content .text {
+        max-width: 100%;
+    }
+
 
 }

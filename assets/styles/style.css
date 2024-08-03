@@ -181,3 +181,36 @@ header .hero-section {
     font-weight: 400;
     margin-bottom: 32px;
 }
+
+/* FAQ section starts here  */
+.faq .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq .content .text {
+    max-width: 570px;
+    flex-shrink: 2;
+}
+
+.faq .content .image img {
+    width: 100%;
+    height: 500px;
+}
+
+.faq .content .box {
+    padding: 30px;
+    padding-right: 50px;
+    border-radius: 8px;
+    background: rgb(255, 246, 246);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.faq .content .box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
