@@ -1,0 +1,29 @@
+/* my default styles  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* some shared styles  */
+header,
+section {
+    max-width: 1210px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
+/* header section starts here  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
