@@ -72,7 +72,7 @@
     /* contact section starts here  */
     .contact .container {
         grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
+        gap: 50px;
     }
 
     .contact .container .address .box {
@@ -82,6 +82,12 @@
     .contact form input,
     .contact form textarea {
         margin-bottom: 20px;
+    }
+
+    /* footer section starts here  */
+    footer .content {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
     }
 
 }
@@ -115,6 +121,22 @@
 
     .faq .content .text {
         max-width: 100%;
+    }
+
+    /* contact section starts here  */
+    .contact .container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+    .contact .container .address .box {
+        padding: 100px 40px;
+    }
+
+    /* footer section starts here  */
+    footer .content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
     }
 
 

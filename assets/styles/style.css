@@ -13,7 +13,8 @@
 
 /* some shared styles  */
 header,
-section {
+section,
+footer .content {
     max-width: 1210px;
     margin: 50px auto;
     padding: 20px;
@@ -244,6 +245,7 @@ header .hero-section {
     font-family: "EB Garamond", serif;
     font-size: 1.5rem;
     font-weight: 800;
+    margin-bottom: 16px;
 }
 
 .contact form input,
@@ -262,4 +264,60 @@ header .hero-section {
 
 .contact form .btn-primary {
     width: 100%;
+}
+
+/* footer section starts here  */
+footer {
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+footer .content .head {
+    font-family: "EB Garamond", serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+footer .content .data {
+    margin-bottom: 26px;
+}
+
+footer .content .box .input-box {
+    position: relative;
+}
+
+footer .content .box .telegram {
+    background: rgb(182, 140, 90);
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 8px;
+    height: 100%;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .content .box .input-box img {
+
+    width: 25px;
+    height: 25px;
+}
+
+footer .content .box input {
+    width: 100%;
+    border-radius: 8px;
+    padding: 23px;
+    padding-left: 30px;
 }
